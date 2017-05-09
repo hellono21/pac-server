@@ -7,6 +7,11 @@ import pac from '../utils/pacScripts'
 
 const router = new Router()
 
+router.get('/', async (ctx) => {
+  ctx.type = 'application/javascript'
+  ctx.body = await pac('arukas')
+})
+
 router.get('/pacs/arukas', async (ctx) => {
   ctx.type = 'application/javascript'
   ctx.body = await pac('arukas')
