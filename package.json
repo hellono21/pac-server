@@ -9,7 +9,12 @@
   "dependencies": {
     "babel-preset-env": "^1.4.0",
     "babel-register": "^6.24.1",
-    "koa": "next"
+    "kcors": "next",
+    "koa": "next",
+    "koa-bodyparser": "next",
+    "koa-logger": "next",
+    "koa-router": "next",
+    "uglify-js": "^3.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
