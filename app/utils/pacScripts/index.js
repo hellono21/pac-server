@@ -5,6 +5,7 @@
 import fs from 'fs'
 import path from 'path'
 import uglifyJS from 'uglify-js'
+import axio from 'axios'
 
 function readFile (file) {
   return new Promise((resolve, reject) => {
@@ -19,12 +20,19 @@ function readFile (file) {
 }
 
 async function buildScripts (name) {
-  const proxyOptions = {
-    arukas: '"HTTPS hello21-https.arukascloud.io;"',
-    alicn: '"PROXY 101.200.209.250:63333"',
-    alisg: '"HTTPS h2.bengbeng.lol:8443;"',
+  let proxyOptions = {
+    arukas: 'HTTPS hellohttps.arukascloud.io;',
+    alicn: 'PROXY 101.200.209.250:63333',
+    alisg: 'HTTPS h2.bengbeng.lol:8443;',
   }
-  const proxy = proxyOptions[name]
+
+  try {
+    const remoteConfigs = await axio.get('https://raw.githubusercontent.com/hellono21/pac-server/master/app/config/proxyConfig.json')
+    proxyOptions = remoteConfigs.data
+  } catch (err) {
+  }
+
+  const proxy = `"${proxyOptions[name]}"`
   const file = path.resolve(__dirname, './template/whiteblack.pac')
   let scripts = await readFile(file)
   scripts = scripts.replace('__PROXY__', proxy)
