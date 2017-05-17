@@ -21,7 +21,7 @@ function readFile (file) {
 
 async function buildScripts (name) {
   let proxyOptions = {
-    arukas: 'HTTPS hellohttps.arukascloud.io;',
+    arukas: 'HTTPS hello21-https.arukascloud.io;',
     alicn: 'PROXY 101.200.209.250:63333',
     alisg: 'HTTPS h2.bengbeng.lol:8443;',
   }
