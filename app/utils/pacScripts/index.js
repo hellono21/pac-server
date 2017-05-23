@@ -33,7 +33,7 @@ async function buildScripts (name) {
   }
 
   const proxy = `"${proxyOptions[name]}"`
-  const file = path.resolve(__dirname, './template/whiteblack.pac')
+  const file = path.resolve(__dirname, './template/white.pac')
   let scripts = await readFile(file)
   scripts = scripts.replace('__PROXY__', proxy)
 
