@@ -1,5 +1,7 @@
 {
   "arukas": "HTTPS hellohttps.arukascloud.io;",
-  "alicn": "PROXY 101.200.209.250:53333",
+  "alicn": "PROXY m.bengbeng.lol:53333",
+  "alicn_proxy": "PROXY m.bengbeng.lol:53333",
+  "alicn_https": "PROXY m.bengbeng.lol:54333",
   "alisg": "HTTPS h2.bengbeng.lol:8443;"
 }

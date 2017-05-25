@@ -19,11 +19,10 @@ function readFile (file) {
   })
 }
 
-async function buildScripts (name) {
+async function buildScripts (name, type = '') {
   let proxyOptions = {
-    arukas: 'HTTPS hello21-https.arukascloud.io;',
-    alicn: 'PROXY 101.200.209.250:63333',
-    alisg: 'HTTPS h2.bengbeng.lol:8443;',
+    alicn_https: 'HTTPS m.bengbeng.lol:54333;',
+    alicn_proxy: 'PROXY m.bengbeng.lol:53333;',
   }
 
   try {
@@ -31,8 +30,13 @@ async function buildScripts (name) {
     proxyOptions = remoteConfigs.data
   } catch (err) {
   }
+  const proxyName = `${name}_${type.toLowerCase()}`
 
-  const proxy = `"${proxyOptions[name]}"`
+  if (proxyOptions[proxyName] === undefined) {
+    const error = new Error('Not Found')
+    throw error
+  }
+  const proxy = `"${proxyOptions[proxyName]}"`
   const file = path.resolve(__dirname, './template/white.pac')
   let scripts = await readFile(file)
   scripts = scripts.replace('__PROXY__', proxy)

@@ -15,6 +15,7 @@
     "koa-bodyparser": "next",
     "koa-logger": "next",
     "koa-router": "next",
+    "ua-parser-js": "^0.7.12",
     "uglify-js": "^3.0.1"
   },
   "devDependencies": {
