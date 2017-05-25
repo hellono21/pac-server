@@ -18,12 +18,22 @@
       <file leaf-file-name="pacScripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/api/pacScripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="648">
+              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#38#69#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/utils/pacScripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="477">
               <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -155,9 +165,10 @@
         <option value="$PROJECT_DIR$/../../../app/api/pacScripts.js" />
         <option value="$PROJECT_DIR$/../../app/config/proxyConfig.json" />
         <option value="$PROJECT_DIR$/../../app/utils/pacScripts/index.js" />
-        <option value="$PROJECT_DIR$/../app/api/pacScripts.js" />
         <option value="$PROJECT_DIR$/../app/config/proxyConfig.json" />
         <option value="$PROJECT_DIR$/../app/utils/pacScripts/index.js" />
+        <option value="$PROJECT_DIR$/../app/api/pacScripts.js" />
+        <option value="$PROJECT_DIR$/../Dockerfile" />
       </list>
     </option>
   </component>
@@ -421,12 +432,12 @@
       <workItem from="1494230261755" duration="2479000" />
       <workItem from="1494232825971" duration="6174000" />
       <workItem from="1494480232154" duration="4164000" />
-      <workItem from="1495673630806" duration="6819000" />
+      <workItem from="1495673630806" duration="7089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22945000" />
+    <option name="totallyTimeSpent" value="23215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1682" height="999" extended-state="6" />
@@ -540,17 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../app/api/pacScripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#38#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../app/config/proxyConfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -571,11 +571,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../app/utils/pacScripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="477">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/api/pacScripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#38#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

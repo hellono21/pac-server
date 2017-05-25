@@ -38,7 +38,8 @@ router.get('/pacs', checkUA, async (ctx) => {
     proxyType = ctx.isHttpsProxySupported ? 'HTTPS' : 'PROXY'
   }
 
-  ctx.type = 'application/x-ns-proxy-autoconfig'
+  // ctx.type = 'application/x-ns-proxy-autoconfig'
+  ctx.type = 'application/javascript'
   ctx.body = await pac('alicn', proxyType)
 })
 
@@ -50,7 +51,8 @@ router.get('/pacs/:name', checkUA, async (ctx) => {
     proxyType = ctx.isHttpsProxySupported ? 'HTTPS' : 'PROXY'
   }
 
-  ctx.type = 'application/x-ns-proxy-autoconfig'
+  ctx.type = 'application/javascript'
+  // ctx.type = 'application/x-ns-proxy-autoconfig'
   ctx.body = await pac(proxyName, proxyType)
 })
 

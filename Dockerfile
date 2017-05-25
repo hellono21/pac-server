@@ -6,7 +6,7 @@ WORKDIR /usr/src/hello21-pac-server
 
 # Install app dependencies
 COPY package.json /usr/src/hello21-pac-server/
-RUN npm install
+RUN yarn install
 
 # Bundle app source
 COPY . /usr/src/hello21-pac-server
