@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/../Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -432,12 +432,12 @@
       <workItem from="1494230261755" duration="2479000" />
       <workItem from="1494232825971" duration="6174000" />
       <workItem from="1494480232154" duration="4164000" />
-      <workItem from="1495673630806" duration="7089000" />
+      <workItem from="1495673630806" duration="7696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23215000" />
+    <option name="totallyTimeSpent" value="23822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1682" height="999" extended-state="6" />
@@ -593,7 +593,7 @@
     <entry file="file://$PROJECT_DIR$/../Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
