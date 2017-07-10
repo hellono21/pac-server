@@ -26,7 +26,8 @@ async function buildScripts (name, type = '') {
   }
 
   try {
-    const remoteConfigs = await axio.get('https://raw.githubusercontent.com/hellono21/pac-server/master/app/config/proxyConfig.json')
+    // const remoteConfigs = await axio.get('https://raw.githubusercontent.com/hellono21/pac-server/master/app/config/proxyConfig.json')
+    const remoteConfigs = await axio.get('http://git.oschina.net/ishuchong/pac-server/raw/master/app/config/proxyConfig.json')
     proxyOptions = remoteConfigs.data
   } catch (err) {
   }

@@ -6,7 +6,7 @@ WORKDIR /usr/src/hello21-pac-server
 
 # Install app dependencies
 COPY package.json /usr/src/hello21-pac-server/
-RUN yarn install
+RUN npm config set registry https://registry.npm.taobao.org && yarn install
 
 # Bundle app source
 COPY . /usr/src/hello21-pac-server
